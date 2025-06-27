@@ -1,0 +1,24 @@
+{
+    "name": "diego/teatro-metropolitan",
+    "description": "Sistema de gestión de eventos para el Teatro Metropolitan, desarrollado en PHP 8 con MVC, SQL, BEM y SASS.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Sánchez Zaragoza",
+            "email": "sontabuu@email.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "vlucas/phpdotenv": "^5.4",
+        "intervention/image": "^2.7"
+    }
+}
